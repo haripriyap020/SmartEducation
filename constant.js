@@ -3,9 +3,9 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.default = _default;
+exports.default = constants;
 
-function _default(x) {
+function constants(x) {
   return function () {
     return x;
   };

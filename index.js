@@ -3,431 +3,211 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-Object.defineProperty(exports, "timeDay", {
+Object.defineProperty(exports, "scaleBand", {
   enumerable: true,
   get: function () {
-    return _day.default;
+    return _band.default;
   }
 });
-Object.defineProperty(exports, "timeDays", {
+Object.defineProperty(exports, "scaleDiverging", {
   enumerable: true,
   get: function () {
-    return _day.days;
+    return _diverging.default;
   }
 });
-Object.defineProperty(exports, "timeFriday", {
+Object.defineProperty(exports, "scaleDivergingLog", {
   enumerable: true,
   get: function () {
-    return _week.friday;
+    return _diverging.divergingLog;
   }
 });
-Object.defineProperty(exports, "timeFridays", {
+Object.defineProperty(exports, "scaleDivergingPow", {
   enumerable: true,
   get: function () {
-    return _week.fridays;
+    return _diverging.divergingPow;
   }
 });
-Object.defineProperty(exports, "timeHour", {
+Object.defineProperty(exports, "scaleDivergingSqrt", {
   enumerable: true,
   get: function () {
-    return _hour.default;
+    return _diverging.divergingSqrt;
   }
 });
-Object.defineProperty(exports, "timeHours", {
+Object.defineProperty(exports, "scaleDivergingSymlog", {
   enumerable: true,
   get: function () {
-    return _hour.hours;
+    return _diverging.divergingSymlog;
   }
 });
-Object.defineProperty(exports, "timeInterval", {
+Object.defineProperty(exports, "scaleIdentity", {
   enumerable: true,
   get: function () {
-    return _interval.default;
+    return _identity.default;
   }
 });
-Object.defineProperty(exports, "timeMillisecond", {
+Object.defineProperty(exports, "scaleImplicit", {
   enumerable: true,
   get: function () {
-    return _millisecond.default;
+    return _ordinal.implicit;
   }
 });
-Object.defineProperty(exports, "timeMilliseconds", {
+Object.defineProperty(exports, "scaleLinear", {
   enumerable: true,
   get: function () {
-    return _millisecond.milliseconds;
+    return _linear.default;
   }
 });
-Object.defineProperty(exports, "timeMinute", {
+Object.defineProperty(exports, "scaleLog", {
   enumerable: true,
   get: function () {
-    return _minute.default;
+    return _log.default;
   }
 });
-Object.defineProperty(exports, "timeMinutes", {
+Object.defineProperty(exports, "scaleOrdinal", {
   enumerable: true,
   get: function () {
-    return _minute.minutes;
+    return _ordinal.default;
   }
 });
-Object.defineProperty(exports, "timeMonday", {
+Object.defineProperty(exports, "scalePoint", {
   enumerable: true,
   get: function () {
-    return _week.monday;
+    return _band.point;
   }
 });
-Object.defineProperty(exports, "timeMondays", {
+Object.defineProperty(exports, "scalePow", {
   enumerable: true,
   get: function () {
-    return _week.mondays;
+    return _pow.default;
   }
 });
-Object.defineProperty(exports, "timeMonth", {
+Object.defineProperty(exports, "scaleQuantile", {
   enumerable: true,
   get: function () {
-    return _month.default;
+    return _quantile.default;
   }
 });
-Object.defineProperty(exports, "timeMonths", {
+Object.defineProperty(exports, "scaleQuantize", {
   enumerable: true,
   get: function () {
-    return _month.months;
+    return _quantize.default;
   }
 });
-Object.defineProperty(exports, "timeSaturday", {
+Object.defineProperty(exports, "scaleRadial", {
   enumerable: true,
   get: function () {
-    return _week.saturday;
+    return _radial.default;
   }
 });
-Object.defineProperty(exports, "timeSaturdays", {
+Object.defineProperty(exports, "scaleSequential", {
   enumerable: true,
   get: function () {
-    return _week.saturdays;
+    return _sequential.default;
   }
 });
-Object.defineProperty(exports, "timeSecond", {
+Object.defineProperty(exports, "scaleSequentialLog", {
   enumerable: true,
   get: function () {
-    return _second.default;
+    return _sequential.sequentialLog;
   }
 });
-Object.defineProperty(exports, "timeSeconds", {
+Object.defineProperty(exports, "scaleSequentialPow", {
   enumerable: true,
   get: function () {
-    return _second.seconds;
+    return _sequential.sequentialPow;
   }
 });
-Object.defineProperty(exports, "timeSunday", {
+Object.defineProperty(exports, "scaleSequentialQuantile", {
   enumerable: true,
   get: function () {
-    return _week.sunday;
+    return _sequentialQuantile.default;
   }
 });
-Object.defineProperty(exports, "timeSundays", {
+Object.defineProperty(exports, "scaleSequentialSqrt", {
   enumerable: true,
   get: function () {
-    return _week.sundays;
+    return _sequential.sequentialSqrt;
   }
 });
-Object.defineProperty(exports, "timeThursday", {
+Object.defineProperty(exports, "scaleSequentialSymlog", {
   enumerable: true,
   get: function () {
-    return _week.thursday;
+    return _sequential.sequentialSymlog;
   }
 });
-Object.defineProperty(exports, "timeThursdays", {
+Object.defineProperty(exports, "scaleSqrt", {
   enumerable: true,
   get: function () {
-    return _week.thursdays;
+    return _pow.sqrt;
   }
 });
-Object.defineProperty(exports, "timeTickInterval", {
+Object.defineProperty(exports, "scaleSymlog", {
   enumerable: true,
   get: function () {
-    return _ticks.timeTickInterval;
+    return _symlog.default;
   }
 });
-Object.defineProperty(exports, "timeTicks", {
+Object.defineProperty(exports, "scaleThreshold", {
   enumerable: true,
   get: function () {
-    return _ticks.timeTicks;
+    return _threshold.default;
   }
 });
-Object.defineProperty(exports, "timeTuesday", {
+Object.defineProperty(exports, "scaleTime", {
   enumerable: true,
   get: function () {
-    return _week.tuesday;
+    return _time.default;
   }
 });
-Object.defineProperty(exports, "timeTuesdays", {
+Object.defineProperty(exports, "scaleUtc", {
   enumerable: true,
   get: function () {
-    return _week.tuesdays;
+    return _utcTime.default;
   }
 });
-Object.defineProperty(exports, "timeWednesday", {
+Object.defineProperty(exports, "tickFormat", {
   enumerable: true,
   get: function () {
-    return _week.wednesday;
-  }
-});
-Object.defineProperty(exports, "timeWednesdays", {
-  enumerable: true,
-  get: function () {
-    return _week.wednesdays;
-  }
-});
-Object.defineProperty(exports, "timeWeek", {
-  enumerable: true,
-  get: function () {
-    return _week.sunday;
-  }
-});
-Object.defineProperty(exports, "timeWeeks", {
-  enumerable: true,
-  get: function () {
-    return _week.sundays;
-  }
-});
-Object.defineProperty(exports, "timeYear", {
-  enumerable: true,
-  get: function () {
-    return _year.default;
-  }
-});
-Object.defineProperty(exports, "timeYears", {
-  enumerable: true,
-  get: function () {
-    return _year.years;
-  }
-});
-Object.defineProperty(exports, "utcDay", {
-  enumerable: true,
-  get: function () {
-    return _utcDay.default;
-  }
-});
-Object.defineProperty(exports, "utcDays", {
-  enumerable: true,
-  get: function () {
-    return _utcDay.utcDays;
-  }
-});
-Object.defineProperty(exports, "utcFriday", {
-  enumerable: true,
-  get: function () {
-    return _utcWeek.utcFriday;
-  }
-});
-Object.defineProperty(exports, "utcFridays", {
-  enumerable: true,
-  get: function () {
-    return _utcWeek.utcFridays;
-  }
-});
-Object.defineProperty(exports, "utcHour", {
-  enumerable: true,
-  get: function () {
-    return _utcHour.default;
-  }
-});
-Object.defineProperty(exports, "utcHours", {
-  enumerable: true,
-  get: function () {
-    return _utcHour.utcHours;
-  }
-});
-Object.defineProperty(exports, "utcMillisecond", {
-  enumerable: true,
-  get: function () {
-    return _millisecond.default;
-  }
-});
-Object.defineProperty(exports, "utcMilliseconds", {
-  enumerable: true,
-  get: function () {
-    return _millisecond.milliseconds;
-  }
-});
-Object.defineProperty(exports, "utcMinute", {
-  enumerable: true,
-  get: function () {
-    return _utcMinute.default;
-  }
-});
-Object.defineProperty(exports, "utcMinutes", {
-  enumerable: true,
-  get: function () {
-    return _utcMinute.utcMinutes;
-  }
-});
-Object.defineProperty(exports, "utcMonday", {
-  enumerable: true,
-  get: function () {
-    return _utcWeek.utcMonday;
-  }
-});
-Object.defineProperty(exports, "utcMondays", {
-  enumerable: true,
-  get: function () {
-    return _utcWeek.utcMondays;
-  }
-});
-Object.defineProperty(exports, "utcMonth", {
-  enumerable: true,
-  get: function () {
-    return _utcMonth.default;
-  }
-});
-Object.defineProperty(exports, "utcMonths", {
-  enumerable: true,
-  get: function () {
-    return _utcMonth.utcMonths;
-  }
-});
-Object.defineProperty(exports, "utcSaturday", {
-  enumerable: true,
-  get: function () {
-    return _utcWeek.utcSaturday;
-  }
-});
-Object.defineProperty(exports, "utcSaturdays", {
-  enumerable: true,
-  get: function () {
-    return _utcWeek.utcSaturdays;
-  }
-});
-Object.defineProperty(exports, "utcSecond", {
-  enumerable: true,
-  get: function () {
-    return _second.default;
-  }
-});
-Object.defineProperty(exports, "utcSeconds", {
-  enumerable: true,
-  get: function () {
-    return _second.seconds;
-  }
-});
-Object.defineProperty(exports, "utcSunday", {
-  enumerable: true,
-  get: function () {
-    return _utcWeek.utcSunday;
-  }
-});
-Object.defineProperty(exports, "utcSundays", {
-  enumerable: true,
-  get: function () {
-    return _utcWeek.utcSundays;
-  }
-});
-Object.defineProperty(exports, "utcThursday", {
-  enumerable: true,
-  get: function () {
-    return _utcWeek.utcThursday;
-  }
-});
-Object.defineProperty(exports, "utcThursdays", {
-  enumerable: true,
-  get: function () {
-    return _utcWeek.utcThursdays;
-  }
-});
-Object.defineProperty(exports, "utcTickInterval", {
-  enumerable: true,
-  get: function () {
-    return _ticks.utcTickInterval;
-  }
-});
-Object.defineProperty(exports, "utcTicks", {
-  enumerable: true,
-  get: function () {
-    return _ticks.utcTicks;
-  }
-});
-Object.defineProperty(exports, "utcTuesday", {
-  enumerable: true,
-  get: function () {
-    return _utcWeek.utcTuesday;
-  }
-});
-Object.defineProperty(exports, "utcTuesdays", {
-  enumerable: true,
-  get: function () {
-    return _utcWeek.utcTuesdays;
-  }
-});
-Object.defineProperty(exports, "utcWednesday", {
-  enumerable: true,
-  get: function () {
-    return _utcWeek.utcWednesday;
-  }
-});
-Object.defineProperty(exports, "utcWednesdays", {
-  enumerable: true,
-  get: function () {
-    return _utcWeek.utcWednesdays;
-  }
-});
-Object.defineProperty(exports, "utcWeek", {
-  enumerable: true,
-  get: function () {
-    return _utcWeek.utcSunday;
-  }
-});
-Object.defineProperty(exports, "utcWeeks", {
-  enumerable: true,
-  get: function () {
-    return _utcWeek.utcSundays;
-  }
-});
-Object.defineProperty(exports, "utcYear", {
-  enumerable: true,
-  get: function () {
-    return _utcYear.default;
-  }
-});
-Object.defineProperty(exports, "utcYears", {
-  enumerable: true,
-  get: function () {
-    return _utcYear.utcYears;
+    return _tickFormat.default;
   }
 });
 
-var _interval = _interopRequireDefault(require("./interval.js"));
+var _band = _interopRequireWildcard(require("./band.js"));
 
-var _millisecond = _interopRequireWildcard(require("./millisecond.js"));
+var _identity = _interopRequireDefault(require("./identity.js"));
 
-var _second = _interopRequireWildcard(require("./second.js"));
+var _linear = _interopRequireDefault(require("./linear.js"));
 
-var _minute = _interopRequireWildcard(require("./minute.js"));
+var _log = _interopRequireDefault(require("./log.js"));
 
-var _hour = _interopRequireWildcard(require("./hour.js"));
+var _symlog = _interopRequireDefault(require("./symlog.js"));
 
-var _day = _interopRequireWildcard(require("./day.js"));
+var _ordinal = _interopRequireWildcard(require("./ordinal.js"));
 
-var _week = require("./week.js");
+var _pow = _interopRequireWildcard(require("./pow.js"));
 
-var _month = _interopRequireWildcard(require("./month.js"));
+var _radial = _interopRequireDefault(require("./radial.js"));
 
-var _year = _interopRequireWildcard(require("./year.js"));
+var _quantile = _interopRequireDefault(require("./quantile.js"));
 
-var _utcMinute = _interopRequireWildcard(require("./utcMinute.js"));
+var _quantize = _interopRequireDefault(require("./quantize.js"));
 
-var _utcHour = _interopRequireWildcard(require("./utcHour.js"));
+var _threshold = _interopRequireDefault(require("./threshold.js"));
 
-var _utcDay = _interopRequireWildcard(require("./utcDay.js"));
+var _time = _interopRequireDefault(require("./time.js"));
 
-var _utcWeek = require("./utcWeek.js");
+var _utcTime = _interopRequireDefault(require("./utcTime.js"));
 
-var _utcMonth = _interopRequireWildcard(require("./utcMonth.js"));
+var _sequential = _interopRequireWildcard(require("./sequential.js"));
 
-var _utcYear = _interopRequireWildcard(require("./utcYear.js"));
+var _sequentialQuantile = _interopRequireDefault(require("./sequentialQuantile.js"));
 
-var _ticks = require("./ticks.js");
+var _diverging = _interopRequireWildcard(require("./diverging.js"));
+
+var _tickFormat = _interopRequireDefault(require("./tickFormat.js"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
 
 function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
